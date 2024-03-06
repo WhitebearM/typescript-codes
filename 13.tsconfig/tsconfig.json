@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./build/js",
+        "target": "ES6",
+        "noEmitOnError": true,
+        "module": "ESNext", //컴파일을 마친 후에 Js허용하는 모듈
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "lib": ["ESNext",  "DOM"], //라이브러리를 가져온다. console도 DOM에 포함되어있다.
+        "strict": true,
+        "strictNullChecks": true
+
+    },
+    "include": [
+        "./src/**/*.ts"
+    ]
+}
